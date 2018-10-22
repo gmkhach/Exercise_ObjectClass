@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectClass", "ObjectClass\ObjectClass.csproj", "{17542AB5-FE5B-4567-B997-A2EAEBF9E734}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectClassExercise", "ObjectClass\ObjectClassExercise.csproj", "{17542AB5-FE5B-4567-B997-A2EAEBF9E734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
