@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectClass
 {
-    class Product
+    class Product : EntityBase
     {
         public string ProductName { get; set; }
 

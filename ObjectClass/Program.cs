@@ -33,6 +33,9 @@ namespace ObjectClass
 
             // Overridden ToString()
             Console.WriteLine("Overridden ToString(): " + Computer.ToString());
+
+            // Computer has inherited IsValid (along with other methods in EntityBase class) from EntityBase class
+            Console.WriteLine(Computer.IsValid);
         }
     }
 }
