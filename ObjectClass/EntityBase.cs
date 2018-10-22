@@ -18,7 +18,7 @@ namespace ObjectClass
         public EntityStateOption EntityState { get; set; }
 
         public bool IsNew { get; private set; }
-        public bool HadChanged { get; set; }
+        public bool HadChanges { get; set; }
         public bool IsValid
         {
             get
