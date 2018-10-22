@@ -23,9 +23,11 @@ namespace ObjectClass
         {
             get
             {
-                // For now we'll just return true here 
-                return true;
+                // calls the abstract method Validate() which is implemented in the child class
+                return Validate();
             }
         }
+
+        public abstract bool Validate();
     }
 }

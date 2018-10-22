@@ -14,5 +14,10 @@ namespace ObjectClass
         {
             return ProductName;
         }
+
+        public override bool Validate()
+        {
+            return string.IsNullOrEmpty(ProductName) ? false : true;
+        }
     }
 }
